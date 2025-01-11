@@ -1,0 +1,116 @@
+/* body p , html p {
+    /* font-family: 'Roboto', sans-serif !important; */
+/* font-size: 16px !important; 
+    font-weight: 400 !important; 
+    line-height: 1.5 !important; 
+    margin-bottom: 16px !important;  
+    color: #333 !important;   */
+/* } */
+#root {
+    background: var(--mainBgcolor);
+}
+
+:root {
+    --cardChild: #ffffff;
+    --MyDarkGrayBg: #0c0c0c;
+    --lightGrayColor: #201d1d;
+    /* _______________  */
+    /*---------------Start Theme Color----------------  */
+    --topNavBgColor: #00268f;
+    /* --topNavBgColor: #c60b17; */
+    --whiteBg: #ffffff;
+    --mainBgcolor: rgb(254, 253, 253);
+    --mainBgcolorDark: #000;
+    --grayBgColor: #f3f2f2;
+    --lightBodyBg: #e60c0c;
+    --lightWhite: rgb(250, 250, 250);
+    /*--------------- End Theme Color ----------------  */
+    --aboutBgColor: #012C57;
+    --darkRed: var(--orangeBG);
+    --texrColorOne: #ffffff;
+    --cardHeadColor: #00268f;
+    --cardHeadColorDark: #00062B;
+    --orangeBG: rgb(221, 1, 1);
+    --my-border: 2px solid rgb(18, 73, 124) !important;
+    --gradientBlueBg: linear-gradient(180deg, rgba(9, 9, 121, 1) 0%, rgba(6, 73, 163, 1) 41%, rgb(111, 152, 212) 100%);
+    --d-blue: #00268f;
+    --dark-blue2: #00062B !important;
+    --card-bg: #031E3B;
+    --card-bg2: #012C57;
+    --label:#0f4774;
+    --admHeadColor: rgb(240, 173, 78);
+    --course-bg: #f9d5b0 !important;
+    --computerBgCard: linear-gradient(0deg, #3a4792c2, #232d6b97), url("/images/thumbnails/book.png") center;
+    --BooksBgCard: linear-gradient(0deg, #3a4792c2, #232d6b97), url("/images/thumbnails/pc.jpg") center;
+    --EstablishmentBgCard: linear-gradient(0deg, #3a4792c2, #232d6b97), url("/images/vender/contactBg.png") center;
+    --fbbg: linear-gradient(to right, #efe0f1 2%, #d2ddf7 100%, #e0f1e4 1%);
+    --teamCardBg: rgb(209, 255, 209);
+    --whitesmoke: whitesmoke;
+    /* --myBtn: #971680; */
+
+}
+
+.select-none {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+
+#homeA,
+#homeB,
+#team,
+#timeTable,
+#noticeBg,
+#TestimonialChild,
+#liveCards,
+#liveA,
+#liveB,
+#liveC,
+#liveD,
+#contact,
+#HomeOffer,
+#aboutBg,
+#MissionLeft1,
+#MissionLeft2,
+#MissionRight,
+#Accordion1,
+#MyCardBg,
+#affiliations,
+#counter1,
+#counter2,
+#counter3,
+#counter4,
+#ContactHeader,
+#aboutContact,
+#aboutMap,
+#TopCourseChild,
+#FeatureCard,
+#photoCard,
+#signUpNow {
+    background: var(--cardChild);
+}
+
+#branchBgCard,
+#branchChild {
+    background: var(--cardHeadColorDark);
+}
+
+/* --------------classes-------------- */
+.Xsmall {
+    font-size: 0.8rem !important;
+
+}
+
+#dText {
+    color: black;
+}
+
+.vlColor {
+    color: #971680;
+}
+.darkPink{
+    background:#c60b17;
+}
+ #absirfdiitBg{
+    background:var(--topNavBgColor)
+}
